@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktumblingtoads=self.webpackChunktumblingtoads||[]).push([[867],{867:function(t,a,d){t.exports=d.p+"static/media/np_mammoth.60dacd8552af10d41d2d.md"}}]);

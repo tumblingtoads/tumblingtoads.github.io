@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: block;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ 
+.sidebar {
+  width: 25%;
+  position: fixed;
+  padding: 2%;
+}
+
+.blog-content {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+.blog-content-tags {
+  background-color:lightgray;
+  padding: 7px;
+  float: left;
+  margin-right: 10px;
+  display: block;
+  margin-top: 40px;
 }
