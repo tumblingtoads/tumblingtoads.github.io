@@ -14,11 +14,11 @@
         "id": "ab705a16-36ca-11ee-be56-0242ac120002",
         "name": "Mammoth Cave National Park",
         "year": 2023,
-        "month": "July",
+        "month": "August",
         "length": 2,
         "country": "USA",
         "location": "Kentucky",
-        "tags": ["2023", "July", "Redwood", "National Park", "UNESCO", "California"],
+        "tags": ["2023", "July", "Mammoth", "National Park", "UNESCO", "Kentucky"],
         "content": "np_mammoth.md"
     }
 ]

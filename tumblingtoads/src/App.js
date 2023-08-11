@@ -1,21 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import Sidebar from './Sidebar';
+import travel from './blog/travel.json';
+import Topbar from './Topbar';
 import Content from './Content';
 import { useState, useEffect } from 'react';
 
 function App() {
-  const [post, setPost] = useState("");
+  const [currentPost, setCurrentPost] = useState(null);
+
   return (
     <div className="Page">
-      <Sidebar 
+      <Topbar 
         notifyParent={(post) => {
-          console.log("clicked");
-          setPost(post);
+          setCurrentPost(post)
         }}
+        posts={travel}
       />
       <Content 
-        post={post}/>
+        post={currentPost == null ? travel[0] : currentPost}/>
     </div>  
   );
 }
