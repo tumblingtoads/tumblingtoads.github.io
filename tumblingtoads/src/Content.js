@@ -2,8 +2,8 @@ import Markdown from 'markdown-to-jsx';
 import React, { useState, useEffect } from 'react';
 
 function Content(props) {
-    const file_name = props.post;
-    const tags = props.tags;
+    const file_name = props.post.content;
+    const tags = props.post.tags;
     console.log(tags);
     const [post, setPost] = useState('');
     useEffect(() => {
@@ -28,6 +28,7 @@ function Content(props) {
 
     return (
         <div className="blog-content">
+            <div>{props.post.month}, {props.post.year}</div>
             <Markdown>
                 {post}
             </Markdown>

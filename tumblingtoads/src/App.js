@@ -15,8 +15,7 @@ function App() {
         }}
       />
       <Content 
-        post={post.content}
-        tags={post.tags}/>
+        post={post}/>
     </div>  
   );
 }

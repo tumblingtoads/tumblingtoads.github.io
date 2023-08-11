@@ -1,17 +1,23 @@
 [
     {
+        "id": "a0a32fbe-36ca-11ee-be56-0242ac120002",
         "name": "Redwood National Park",
         "year": 2023,
-        "month": 7,
+        "month": "July",
         "length": 2,
+        "country": "USA",
+        "location": "Califonia",
         "tags": ["2023", "July", "Redwood", "National Park", "UNESCO", "California"],
         "content": "np_redwood.md"
     },
     {
+        "id": "ab705a16-36ca-11ee-be56-0242ac120002",
         "name": "Mammoth Cave National Park",
         "year": 2023,
-        "month": 7,
+        "month": "July",
         "length": 2,
+        "country": "USA",
+        "location": "Kentucky",
         "tags": ["2023", "July", "Redwood", "National Park", "UNESCO", "California"],
         "content": "np_mammoth.md"
     }
