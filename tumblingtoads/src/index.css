@@ -131,7 +131,7 @@ code {
 @media screen and (max-width: 540px) {
   .blog-preview-metadata-desc
   {
-    font-size: small;
+    display: none;
   }
   .blog-preview-metadata-title
   {
