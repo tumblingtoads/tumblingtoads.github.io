@@ -129,6 +129,11 @@ code {
 }
 
 @media screen and (max-width: 540px) {
+  img
+  {
+    width: auto;
+    max-width: 200px;
+  }
   .blog-preview-metadata-desc
   {
     display: none;
