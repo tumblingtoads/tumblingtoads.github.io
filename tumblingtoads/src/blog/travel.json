@@ -1,16 +1,5 @@
 [
     {
-        "id": "a0a32fbe-36ca-11ee-be56-0242ac120002",
-        "name": "Redwood National Park",
-        "year": 2023,
-        "month": "July",
-        "length": 2,
-        "country": "USA",
-        "location": "Califonia",
-        "tags": ["2023", "July", "Redwood", "National Park", "UNESCO", "California"],
-        "content": "np_redwood.md"
-    },
-    {
         "id": "ab705a16-36ca-11ee-be56-0242ac120002",
         "name": "Mammoth Cave National Park",
         "year": 2023,
@@ -19,6 +8,21 @@
         "country": "USA",
         "location": "Kentucky",
         "tags": ["2023", "July", "Mammoth", "National Park", "UNESCO", "Kentucky"],
-        "content": "np_mammoth.md"
+        "content": "np_mammoth.md",
+        "description": "Clear skies fall upon one as they enter the park.",
+        "thumbnail": "https://lh3.googleusercontent.com/pw/AIL4fc_ZCytawLu3T8URbXh55co8RPFxdX4gYbd8Thju7LC7yP9uhEwXQdn331QPx7sVpyiZa3DI3jjdVNOJpG4bNDHx8qdpIJtEoIM7Rov41-Mva5XTzfHe2nuf9VZWvJ_hXa-uRcYMB5sDmXWouHT9tHkj-w=w693-h924-s-no?authuser=0"
+    },
+    {
+        "id": "a0a32fbe-36ca-11ee-be56-0242ac120002",
+        "name": "Redwood National Park",
+        "year": 2023,
+        "month": "July",
+        "length": 2,
+        "country": "USA",
+        "location": "Califonia",
+        "tags": ["2023", "July", "Redwood", "National Park", "UNESCO", "California"],
+        "content": "np_redwood.md",
+        "description": "Home to a few surviving giants, this NP will fail to dissappoint you.",
+        "thumbnail": "https://lh3.googleusercontent.com/pw/AIL4fc_ZCytawLu3T8URbXh55co8RPFxdX4gYbd8Thju7LC7yP9uhEwXQdn331QPx7sVpyiZa3DI3jjdVNOJpG4bNDHx8qdpIJtEoIM7Rov41-Mva5XTzfHe2nuf9VZWvJ_hXa-uRcYMB5sDmXWouHT9tHkj-w=w693-h924-s-no?authuser=0"
     }
 ]
