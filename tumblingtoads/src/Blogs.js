@@ -1,8 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 function Blogs(props) {
+    const navigate = useNavigate();
     const blogs = props.posts.map((post) => {
         return (
             <div>
-                <div className="blog-preview-container" onClick={() => props.notifyParent(post)} key={post.name}>
+                <div className="blog-preview-container" onClick={() => {
+                            props.notifyParent(post);
+                            navigate('blog');
+                        }
+                    } key={post.name}>
                     <div className="blog-preview-metadata">
                         <div className="blog-preview-metadata-date">
                             {post.year}
